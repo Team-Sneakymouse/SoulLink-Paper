@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://json.schemastore.org/bukkit-plugin
+name: SoulLink
+version: 1.0
+main: com.danidipp.soullink.SoulLink
+api-version: 1.20
+softdepend:
+  - PlaceholderAPI
+commands:
+  reload:
+    description: Reloads the plugin
+    usage: /soullink reload
+    permission: soullink.command.reload
+  soullink:
+    description: Increases the link between two players
+    usage: /soullink <player> <player>
+    permission: soullink.command.soullink
